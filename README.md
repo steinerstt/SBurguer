@@ -1,46 +1,96 @@
-# Getting Started with Create React App
+#  SBurguer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![GitHub](https://img.shields.io/github/license/steinerstt/SBurguer?style=for-the-badge)
+![Website](https://img.shields.io/website?color=gree&label=Status&style=for-the-badge&up_message=finalizado&url=https://github.com/steinerstt/SBurguer)
+<br><br>
 
-## Available Scripts
+![SBurguer](https://github.com/steinerstt/screenshots-projects/blob/main/SBurguer/sburguer-gif.gif?raw=true)
+> A SBurguer é o Front-End de uma aplicação Full-Stack
 
-In the project directory, you can run:
+> Regra de negócio: o usuário pode se cadastrar/logar e ter acesso a uma variade de lanches que uma hamburgueria pode fornecer, e ainda pode pesquisar por lanches, adicionar e remover lanches do carrinho.
 
-### `yarn start`
+## 🔰 Ao Vivo
+Para acessar o deploy <a href="https://sburguer.vercel.app/" target="_blank" > Clique Aqui! </a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🌐 Api
+<a href="https://github.com/steinerstt/api-SBurguer" target="_blank"> API </a> criada por mim 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 📌 Features
+- [x] Login
+  - [x] Possibilidade do usuário fazer login
+  - [x] Tratamento de erros da api
+- [x] Register
+  - [x] Possibilidade do usuário se cadastrar
+  - [x] Tratamento de erros da api
+- [x] Header
+  - [x] Pesquisar lanche
+  - [x] Abrir carrinho
+  - [x] Logout
+- [x] Dashboard
+  - [x] Listagem de todos os lanches
+    - [x] Adicionar lanche ao carrinho
+    - [x] Tratamento de erros da api
+- [x] Search
+  - [x] Listar os lanches de acordo com a pesquisa
+  - [x] Limpar pesquisa (voltar para dashboard)
+  
 
-### `yarn test`
+## 🛠️ Tecnologias
+ Este projeto foi desenvolvido com as seguintes tecnologias
+- React
+- TypeScript
+- Axios
+- React-router-dom
+- React-hook-form
+- Yup
+- Styled-components
+- React-icons
+- React-toastify
+- Zustand
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## 🚀 Executando o projeto localmente
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 💻 Pré-requisitos
+Para rodar o projeto é necessário que você tenha instalado na sua máquina as seguintes ferramentas:
+-  Git
+-  Node.js
+-  VSCode
+- Yarn (Recomendado)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 💿 Rodando
+```bash
+# Clone este repositório através do terminal
+$ git clone git@github.com:steinerstt/SBurguer.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Acesse a pasta do projeto
+$ cd SBurguer
 
-### `yarn eject`
+# Instale as dependências do projeto - com yarn OU npm
+$ yarn install
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+$ npm install
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Rode o projeto - com yarn OU npm 
+$ yarn start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+$ npm start
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<br>
 
-## Learn More
+## 📸 Screenshots
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Página inicial - formulário de cadastro de usuário](https://github.com/steinerstt/screenshots-projects/blob/main/SBurguer/home-register.jpg?raw=true)
+![Página inicial - formulário de login](https://github.com/steinerstt/screenshots-projects/blob/main/SBurguer/home-login.jpg?raw=true)
+![Dashboard com listagem dos lanches e input de pesquisa aberto](https://github.com/steinerstt/screenshots-projects/blob/main/SBurguer/dashboard.jpg?raw=true)
+![Modal do carrinho sem lanches](https://github.com/steinerstt/screenshots-projects/blob/main/SBurguer/dashboard-cart-open-empty.jpg?raw=true)
+![Modal do carrinho com lanches](https://github.com/steinerstt/screenshots-projects/blob/main/SBurguer/dashboard-cart-open.jpg?raw=true)
+![Página de listagem dos lanches pesquisados](https://github.com/steinerstt/screenshots-projects/blob/main/SBurguer/search-page.jpg?raw=true)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<br>
+
+## 📄 Licença
+Este projeto está sob a licença do MIT - veja o arquivo [LICENSE](https://github.com/steinerstt/SBurguer/blob/main/LICENSE) para detalhes.
+
+Feito com ❤ por [Steiner](https://github.com/steinerstt)
